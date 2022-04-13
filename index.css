@@ -1,0 +1,91 @@
+/* Main attributer and header */
+:root{
+    --red:#E50914;
+    --black:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    padding-left: 20px;
+    color: var(--red);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #aaa;
+    margin: 10px;
+}
+a:hover{
+    color: #fff;
+}
+/* Banner showcase */
+.banner{
+    margin-top: 8px;
+    font-size: 16px;
+    background: linear-gradient(rgb(0,0,0,0.3), rgb(0,0,0,0.3)), url(./images/illya_bg.jpg) no-repeat center; 
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner .container{
+    padding-left: 30px;
+}
+.banner #sinopse{
+   margin-bottom: 50px;
+   font-size: 15pt;
+}
+#tittle{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#sinopse{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.button{
+    background-color:rgb(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 4px; 
+    padding: 20px 50px;
+    margin-left: 15px;
+}
+.button:hover{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    border: #aaa;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.button i{
+    margin-right: 6px;
+}
+/* poster showcase */
+.poster{
+    height: 450px;
+    width: 250px;
+    display: block;
+}
+.slider{
+    margin-right: none;
+}
