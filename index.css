@@ -12,6 +12,7 @@ body{
     background: var(--black);
     font-family: 'Times New Roman', Times, serif;
     color: white;
+    overflow-x: hidden;
 }
 header .container{
     display: flex;
@@ -69,6 +70,7 @@ a:hover{
     border-radius: 4px; 
     padding: 20px 50px;
     margin-left: 15px;
+    margin-top: 10px;
 }
 .button:hover{
     background-color: rgb(0, 0, 0, 0.8);
@@ -87,5 +89,6 @@ a:hover{
     display: block;
 }
 .slider{
-    margin-right: none;
+    width: 100vw;
+    margin-top: 10px;
 }
